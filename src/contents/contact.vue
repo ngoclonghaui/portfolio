@@ -24,7 +24,6 @@
                 class="input_field_1"
               />
             </div>
-            /dsfffffffffff
           </div>
           <div class="row">
             <div class="col-lg-12">
