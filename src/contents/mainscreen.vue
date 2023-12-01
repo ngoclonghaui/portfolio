@@ -16,18 +16,12 @@
             >Profile</a
           >
         </li>
-        <li>
-          <a href="#education" style="color: #3c3e41; text-decoration: none"
-            >Education</a
-          >
-        </li>
+        <a href="#education" style="color: #3c3e41; text-decoration: none"
+          >Education</a
+        >
+
         <li>
           <a href="#skill" style="color: #3c3e41; text-decoration: none"
-            >Skills</a
-          >
-        </li>
-        <li>
-          <a href="#project" style="color: #3c3e41; text-decoration: none"
             >Project</a
           >
         </li>
@@ -38,7 +32,6 @@
         </li>
       </ul>
     </header>
-
     <div class="container">
       <!-- banner -->
       <div id="profile">

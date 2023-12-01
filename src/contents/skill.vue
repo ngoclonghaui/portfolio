@@ -50,8 +50,6 @@ export default {
 .title {
   text-align: center;
   padding-top: 50px;
-  font-weight: 700;
-  font-size: x-large;
 }
 .listSkill {
   display: grid;
