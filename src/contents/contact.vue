@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div class="container-fluid">
+  <v-form>
+    <v-card class="container-fluid">
       <div class="title">CONTACT</div>
       <div class="row">
         <div class="col-lg-6">
-          <img src="../assets/avatar-removebg-preview.png" alt="" />
+          <img src="../assets/long.png" alt="" />
         </div>
         <div class="col-lg-6">
           <div class="row">
@@ -13,10 +13,7 @@
                 type="text"
                 placeholder="Your Name"
                 v-model="tenLienHe"
-                style="
-                  color: white;
-                  background-image: linear-gradient(45deg, red, blue);
-                "
+                class="input_field_1"
               />
             </div>
             <div class="col-lg-8">
@@ -24,41 +21,29 @@
                 type="email"
                 placeholder="Your email"
                 v-model="email"
-                style="
-                  color: white;
-                  background-image: linear-gradient(45deg, red, blue);
-                "
+                class="input_field_1"
               />
             </div>
           </div>
           <div class="row">
             <div class="col-lg-12">
               <textarea
-                cols="30"
-                rows="auto"
                 placeholder="Your message"
                 v-model="message"
-                style="
-                  color: white;
-                  background-image: linear-gradient(45deg, red, blue);
-                "
+                class="input_field_2"
               ></textarea>
             </div>
             <v-btn
               @click="add()"
-              width="540px"
-              style="
-                margin-left: 10px;
-                color: white;
-                background-image: linear-gradient(45deg, red, blue);
-              "
+              width="630px"
+              style="margin-left: 10px; color: white; background: #000"
               ><v-icon>mdi-email-arrow-right</v-icon>Send Message</v-btn
             >
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </v-card>
+  </v-form>
 </template>
 
 <script>
@@ -119,7 +104,7 @@ export default {
   font-family: 'Poppins', sans-serif;
 }
 input {
-  border: 1px liner-gradient(-45deg, red, yellow);
+  border: 1px wheat;
   border-radius: 5px;
   width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -127,11 +112,21 @@ input {
 textarea {
   width: 100%;
   height: 540px;
-  border: 1px liner-gradient(-45deg, red, yellow);
+  border: 1px wheat;
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
 }
 img {
   box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #fff;
+}
+.input_field_1 {
+  height: 50px;
+  background: wheat;
+  border: 1px solid black;
+}
+.input_field_2 {
+  height: 350px;
+  background: wheat;
+  border: 1px solid black;
 }
 </style>
